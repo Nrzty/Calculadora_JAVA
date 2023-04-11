@@ -1,6 +1,13 @@
 package calc;
 
-// IMPORTS B¡SICOS
+/**
+ * 
+ * @author Silvio S. Silva.
+ * @vers√£o 0.1
+ */
+
+
+// IMPORTS B√ÅSICOS
 import javax.swing.*;
 import java.awt.event.*;
 import javax.swing.JFrame;
@@ -172,7 +179,7 @@ public class Calculadora extends JFrame {
         this.add(limpar);
         
         
-        // FUNC’ES PRA IMPRIMIR O N⁄MERO NO TEXTO
+        // FUNC√ïES PRA IMPRIMIR O N√öMERO NO TEXTO
         numero7.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent evt) {
         		leitura *= 10;
@@ -253,7 +260,7 @@ public class Calculadora extends JFrame {
         	}
         });
 	
-        // OPERA«’ES MATEM¡TICAS
+        // OPERA√á√ïES MATEM√ÅTICAS
         
         somar.addActionListener(new ActionListener(){
         	public void actionPerformed(ActionEvent evt) {
@@ -300,7 +307,7 @@ public class Calculadora extends JFrame {
         	}
         });
         
-        //FUN«√O QUE RESULTA AS OPERA«√O
+        //FUN√á√ÉO QUE RESULTA AS OPERA√á√ÉO
         igual.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 switch (operacao) {
